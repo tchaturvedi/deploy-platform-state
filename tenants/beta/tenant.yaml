@@ -1,0 +1,10 @@
+apiVersion: deployplatform.io/v1alpha1
+kind: Tenant
+metadata:
+  name: beta
+spec:
+  displayName: "Beta Inc"
+  resourceQuota:
+    cpu: "2"
+    memory: "4Gi"
+    pods: "10"
