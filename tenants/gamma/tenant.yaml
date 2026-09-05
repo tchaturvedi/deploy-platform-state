@@ -1,0 +1,10 @@
+apiVersion: deployplatform.io/v1alpha1
+kind: Tenant
+metadata:
+  name: gamma
+spec:
+  displayName: "Gamma LLC"
+  resourceQuota:
+    cpu: "2"
+    memory: "4Gi"
+    pods: "10"
